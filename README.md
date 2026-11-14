@@ -22,7 +22,7 @@ En los talleres pequeños, las plazas y el material se gestionan por separado y 
 
 ## Tecnologías
 
-React con Vite en el cliente, Node.js en el servidor y PostgreSQL como base de datos. El framework del servidor se decide en la tarea T03 y quedará anotado en `docs/decisiones.md`.
+React con Vite en el cliente, Node.js en el servidor y PostgreSQL como base de datos. El framework del servidor se decide en la siguiente tarea.
 
 ## Estado actual
 
