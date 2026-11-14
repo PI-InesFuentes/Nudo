@@ -33,8 +33,5 @@ Fase 3, planificación de la ejecución. El repositorio todavía no contiene có
 Toda la documentación está en la carpeta [`docs/`](docs/):
 
 - `cronograma.md`: tareas, fechas previstas e hitos.
-- `procedimiento.md`: cómo se organiza el trabajo.
-- `decisiones.md`: registro de decisiones relevantes.
-- `riesgos.md`: registro de riesgos.
-- PDF de las entregas de este curso (pendientes de añadir).
+- PDF de las entregas de este curso.
 
