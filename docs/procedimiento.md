@@ -52,6 +52,7 @@ Una tarea solo pasa de En revisión a Hecho si cumple todos los puntos que le co
 
 | Tipo de tarea | Tareas | Evidencia que la da por terminada |
 |---|---|---|
+| Preparación | T01 a T05 | Enlace o captura que muestre el resultado esperado: repositorio y tablero (T01), resumen en docs/ (T02), entrada en decisiones.md (T03) o el entorno funcionando (T04 y T05). |
 | Diseño de la solución y seguimiento | T06 a T08 y T41 | Documento en docs/ enlazado desde la issue y revisado contra lo que pide la tarea. |
 | Diseño de la interfaz | T09 a T11 | Enlace al archivo de Figma y bocetos exportados a PDF en docs/. |
 | Base de datos y servidor | T12 a T24 | Pull request fusionada, pruebas automáticas superadas y casos del registro de pruebas ejecutados con el cliente de API. |
