@@ -29,6 +29,16 @@ Las incidencias siguen las mismas columnas: entran en Por hacer si son críticas
 - Cada tarea se desarrolla en una rama corta con su identificador, por ejemplo `t21-reserva`. Las incidencias usan `inc-<número>-<descripción>`, por ejemplo `inc-34-cancelacion-stock`.
 - La rama se fusiona en `main` mediante una pull request cuya descripción incluye `Closes #<número>`, para que GitHub cierre la issue al fusionar.
 - Commits pequeños, al menos uno por sesión y siempre que termino un cambio que funciona por sí solo, con un mensaje en español que dice qué cambia e incluye el número de la issue.
+- Los mensajes siguen la convención [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/). Empiezan por un prefijo que indica el tipo de cambio y terminan con el número de la issue entre paréntesis, por ejemplo `docs: Añadir registro de cambios (#41)`.
+
+| Prefijo | Cuándo se usa |
+|---|---|
+| `feat` | Funcionalidad nueva de la aplicación. |
+| `fix` | Corrección de un error, normalmente de una incidencia. |
+| `docs` | Documentación (README, docs/ o documentación de la API). |
+| `test` | Pruebas automáticas nuevas o modificadas, sin cambiar la funcionalidad. |
+| `refactor` | Cambio en el código que no añade funcionalidad ni corrige errores. |
+| `chore` | Configuración del repositorio o de las herramientas (plantillas de issue, ESLint, dependencias). |
 - Al final de cada sesión subo los cambios a GitHub.
 
 ## 4. Criterio de tarea terminada
